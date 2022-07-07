@@ -1,0 +1,435 @@
+
+#imeLevo {
+    float: left;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight:400;
+    font-size:40px;
+    color: #34495e;
+    text-align: left;
+
+}
+#menu {
+    width: 200px;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    float: left;
+}
+#menu .link{
+    width: 80%;
+}
+.verticalLine {
+    height: 1200px;
+    width: 1px;
+    margin-top: -2px;
+    float: left;
+    border: 2px outset #bef2d2;
+}
+ .link {
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+     font-size: 14px;
+     letter-spacing: 8px;
+     text-transform: uppercase;
+     color: #34495e;
+     font-weight: 400;
+     border: 2px outset pink;
+     margin-top: 20px;
+    background-color: #edaccf;
+     margin-left: 6px;
+     font-family: fantasy;
+ }
+.link:hover {
+    background-color: #bdf3d2;
+    font-size: 100%;
+}
+
+
+body {
+    margin: 0px;
+    display: flex;
+}
+.divAfterMenu {
+    background-image: linear-gradient(#edaccf, #bdf3d2);
+    background-repeat: no-repeat;
+    height: 1200px;
+    position: relative;
+    margin-top: 0;
+   width: 100%;
+    float: right;
+
+
+   
+}
+.hr1 {
+    clear: both;
+    width: 1000px;
+    float: right;
+    margin-top: -90px;
+    border: 1px solid pink;
+}
+footer {
+
+    right: 0;
+    bottom:0;
+    left:0;
+    background-image: url("footer.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-position: bottom;
+    clear: both;
+    position: absolute;
+
+}
+#navBar {
+    background-color: white;
+}
+#here {
+    background-color: #bef2d2;
+}
+.menuTop {
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    clear: bottom;
+    float: top;
+
+
+}
+
+.textInHeader {
+    display: block;
+    padding: 12px;
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #34495e;
+    font-weight: 700;
+    border: 2px outset #bef2d2;
+    background-color: #bef2d2;
+    margin-right: 190px;
+    font-family: fantasy;
+}
+.photoOfMe {
+    border-radius: 30px;
+    border: 10px solid pink;
+    float: right;
+    clear: right;
+
+}
+
+#divOfmyImg {
+   display: flex;
+    padding-top: 70px;
+    height: 450px;
+    float: left;
+    clear: right; /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+}
+
+.FirstText {
+    width: 300px;
+    height: 300px;
+    /*   clear: both; */
+    display: flex;
+    font-size: 25px;
+ /*   font-family: fantasy; */
+    color: #34495e;
+    align-items: center;
+    justify-content: center;
+    padding-left: 110px;
+    padding-top: 20px;
+    float: left;
+    font-weight: bold;
+    clear: left;
+
+
+}
+.divForTheFirstTextBackgorund {
+    background-image: url("pink footer 1.webp");
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 440px;
+    align-items: center;
+    float: left;
+    display: flex;
+    justify-content: center;
+    clear: left;
+}
+/* ////////////////////////////////////////////// */
+.goUp {
+
+}
+#hrefOfScrollUp {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: inherit;
+    bottom: 0;
+    margin-left: 50%;
+    margin-bottom: 20px;
+}
+
+.gifIcons {
+  margin-top: 450px;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+.gif {
+    height: 50px;
+    display: flex;
+}
+
+#together {
+    margin-left: 210px;
+}
+
+.slikimarija {
+    width: 150px;
+    height: 200px;
+    border: 5px solid pink;
+    border-radius: 30px;
+
+
+}
+.secondImg {
+    display: flex;
+    clear: both;
+    margin-top: 100px;
+justify-content: center;
+    padding-top: 50px;
+    border-radius: 50%
+
+}
+#textAfterMarijaPhotos {
+    color: #34495e;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* ------------------------------------> PROJECT <------------------------------------------------------------- */
+
+
+
+
+
+
+#kavInAction {
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    border: 5px solid pink;
+
+
+}
+#kavInActionFirstText {
+    display: flex;
+    width: 500px;
+    font-size: 20px;
+    color: #34495e;
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(#bef2d2, #edaccf);
+    border-radius: 3%;
+    padding-bottom: 50px;
+
+
+}
+#kavInActionDivAfterMenu {
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+#kavInActionSecondText {
+    display: flex;
+    width: 500px;
+    font-size: 20px;
+    color: #34495e;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(#bef2d2, #edaccf);
+    border-radius: 3%;
+}
+
+.akcijaPrviCetiri {
+    width: 230px;
+    height: 145px;
+    border: 3px solid pink;
+    border-radius: 10px;
+}
+
+.akcijaVtoriCetiri {
+    width: 230px;
+    height: 145px;
+    border: 3px solid pink;
+    border-radius: 10px;
+
+}
+
+#vtorGlavenDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+#akcijaEdenEden {
+    display: flex;
+}
+
+#akcijaEdenDva {
+    display: flex;
+    margin-top: 5px;
+}
+
+#akcijaDvaEden {
+    display: flex;
+}
+
+#akcijaDvaDva {
+    display: flex;
+    margin-top: 5px;
+}
+
+#tekstOdEden {
+    width: 400px;
+    background: linear-gradient(#bef2d2, #edaccf);
+    border-radius: 15px;
+    text-align: center;
+  margin-left: 5px;
+    padding: 27px;
+    color: #34495e;
+
+
+}
+
+#tekstOdDva {
+    width: 400px;
+    background: linear-gradient(#bef2d2, #edaccf);
+    border-radius: 15px;
+    padding: 35px;
+    text-align: center;
+    color: #34495e;
+
+}
+
+#hrKav {
+    border: 2px inset pink;
+}
+
+#tekstMegjuAkcii {
+    width: 270px;
+ /*   display: flex; */
+    font-size: 20px;
+    color: #34495e;
+    text-align: center;
+    word-spacing: 20px;
+ /*   background: linear-gradient(#bef2d2, #edaccf); */
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.vcs {
+    text-decoration: none;
+}
+
+.vcs:hover {
+    color: black;
+    font-weight: bold;
+}
+
+/*----------------------------------------------------->contact<---------------------------------*/
+
+
+.backgroundTwo {
+
+    clear: both;
+    height: 500px;
+
+
+
+}
+
+.boja {
+    color: #505978;
+}
+
+#posledno {
+    text-align: center;
+}
+
+.submit {
+    color: white;
+    width: 200px;
+    background: #edaccf;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.input{
+    padding: 50px 20px;
+}
+.ContractForm{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #34495e;
+}
+.lname{
+    display: flex;
+    justify-content: center;
+}
+#lname{
+    width: 730px;
+    text-align: center;}
+#fname{
+    width: 670px;
+}
+
+.nas {
+    text-align: center;
+}
+
+.celDel {
+    background-color: lightgray;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+.zelenDel{
+    padding: 10px;
+    flex: 2;
+}
+.inp {
+    flex-direction: column;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+
+.input-border, select, textarea {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 6px 15px;
+}
