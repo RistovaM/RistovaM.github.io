@@ -341,7 +341,7 @@ justify-content: center;
     word-spacing: 20px;
  /*   background: linear-gradient(#bef2d2, #edaccf); */
     border-radius: 10px;
-    padding-top: 30px;
+
 }
 
 .vcs {
@@ -432,4 +432,18 @@ justify-content: center;
     border: 1px solid lightgray;
     border-radius: 4px;
     padding: 6px 15px;
+}
+
+/*----------------------------------------------------->TRIP<---------------------------------*/
+
+
+#tekstTripsGolem {
+    padding-top: 70px;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.linktrip {
+    text-decoration: none;
 }
