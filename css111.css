@@ -209,9 +209,10 @@ justify-content: center;
 }
 #textAfterMarijaPhotos {
     color: #34495e;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
+    padding-top: 20px;
 }
 
 
