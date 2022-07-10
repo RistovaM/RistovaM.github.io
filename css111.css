@@ -357,12 +357,7 @@ justify-content: center;
 
 
 .backgroundTwo {
-
     clear: both;
-    height: 500px;
-
-
-
 }
 
 .boja {
@@ -434,16 +429,51 @@ justify-content: center;
     padding: 6px 15px;
 }
 
+.mapa {
+    padding-right: 20px;
+    padding-left: 20px;
+}
 /*----------------------------------------------------->TRIP<---------------------------------*/
 
 
 #tekstTripsGolem {
     padding-top: 70px;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
     font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 .linktrip {
     text-decoration: none;
 }
+
+.tripPic {
+    width: 180px;
+    height: 250px;
+    border-radius: 30px;
+    border: 10px solid pink;
+}
+
+#divZaTripPic {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.grad {
+    text-align: center;
+    font-size: 18px;
+}
+
+#tekstTripVtor {
+    padding-top: 25px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
